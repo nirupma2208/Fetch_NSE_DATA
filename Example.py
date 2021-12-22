@@ -1,3 +1,6 @@
+# install This module 
+# pip install Fetch-NSE-DATA
+
 from Fetch_NSE_DATA.NSE_DATA import *
 
 """ To Fetch Most Active Equities """
