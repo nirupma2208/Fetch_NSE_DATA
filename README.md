@@ -139,7 +139,7 @@ growth = Fetch_Nse_Data(TurnOver.GROWTH)
     ```python
     currency_f = Fetch_Nse_Data(MostActiveFutures.CURRENCY)
     ```
-### Most Active Futures
+### Most Active Options
  - **EQUITY**
     ```python
     equity_O = Fetch_Nse_Data(MostActiveOptions.EQUITY)
