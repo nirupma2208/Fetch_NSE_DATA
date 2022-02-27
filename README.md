@@ -1,116 +1,207 @@
-# pip install Fetch-NSE-DATA
 
-## from Fetch_NSE_DATA.NSE_DATA import * 
+# Fetch-NSE-DATA
 
-### """ To Fetch Most Active Equities """	
-#### securities =Fetch_Nse_Data(MostActiveEquites.SECURITIES)	
-#### sme = Fetch_Nse_Data(MostActiveEquites.SME)	
-#### etf = Fetch_Nse_Data(MostActiveEquites.ETF)	
+This module is used to fetch NSE DATA of Share Market.It basically fetch many informations like Most Active Equities, Index Performances, Price Band Hitters, Volume Gainers, 52 Week High / Low, Top 20 Gainer / Loosers etc.
 
-### """ To Fetch Index Performances """	
 
-####  #allIndices	
-##### allIndices = Fetch_Nse_Data(IndexPerformances.ALL_INDICES)	
 
-#### #BROAD MARKET INDICES	
-##### broad_market = Fetch_Nse_Data(IndexPerformances.BROAD_MARKET)	
+## Installation
 
-#### #SECTORAL INDICES	
-##### sectoral = Fetch_Nse_Data(IndexPerformances.SECTORAL)	
+Install module with cmd
 
-#### #STRATEGY INDICES	
-##### strategy = Fetch_Nse_Data(IndexPerformances.STRATEGY)	
+```bash
+  pip install Fetch-NSE-DATA
+```
+    
+## Fetch INFO
 
-#### #THEMATIC INDICES	
-##### thematic = Fetch_Nse_Data(IndexPerformances.THEMATIC)	
+ - [Most Active Equities]()
+ - [Index Performances]()
+ - [Price Band Hitters]()
+ - [Volume Gainers]()
+ - [52 Week High / Low]()
+ - [Top 20 Gainer / Loosers]()
+ - [TurnOver]()
+ - [Most Active Contracts]()
+ - [Most Active Futures]()
+ - [Most Active Options]()
+ - [Most Active Calls]()
+ - [Most Active Puts]()
+ - [Most Active By OI]()
+ - [Fetch Option Chain]()
+ - [Fetch Option Chain By Symbol]()
 
-#### #FIXED INCOME INDICES	
-##### fixed_income = Fetch_Nse_Data(IndexPerformances.FIXED_INCOME)	
+## Import Module
 
-### """  To Fetch Price Band Hitters"""	
+```bash
+  from Fetch_NSE_DATA.NSE_DATA import *
+```
 
-#### #BAND_HITTERS	
-##### band_hitters = Fetch_Nse_Data(PriceBandHitters.BAND_HITTERS)	
 
-#### #UPPER_BAND_HITTERS	
-##### upper_band_hitters = Fetch_Nse_Data(PriceBandHitters.UPPER_BAND_HITTERS)	
+### Most Active Equities
 
-#### #LOWER_BAND_HITTERS	
-##### lower_band_hitters = Fetch_Nse_Data(PriceBandHitters.LOWER_BAND_HITTERS)	
+```python
+securities =Fetch_Nse_Data(MostActiveEquites.SECURITIES)
 
-#### #BOTH_BAND_HITTERS	
-##### both_band_hitters = Fetch_Nse_Data(PriceBandHitters.BOTH_BAND_HITTERS)	
+sme = Fetch_Nse_Data(MostActiveEquites.SME)
 
-### """  To Fetch Volume Gainers """	
-##### volume = Fetch_Nse_Data(VolumeGainers.VOLUME)	
+etf = Fetch_Nse_Data(MostActiveEquites.ETF)
 
-### """ To Fetch 52 Week High / Low"""	
+```
 
-#### #High	
-##### week_high = Fetch_Nse_Data(WeekHighLow.WEEK_HIGH)
+### Index Performances
+ - **All Indices**
+    ```python
+    allIndices = Fetch_Nse_Data(IndexPerformances.ALL_INDICES)
+    ```
+ - **BROAD MARKET INDICES**
+    ```python
+    broad_market = Fetch_Nse_Data(IndexPerformances.BROAD_MARKET)
+    ```
+ - **SECTORAL INDICES**
+    ```python
+    sectoral = Fetch_Nse_Data(IndexPerformances.SECTORAL)
+    ```
+ - **STRATEGY INDICES**
+    ```python
+    strategy = Fetch_Nse_Data(IndexPerformances.STRATEGY)
+    ```
+ - **THEMATIC INDICES**
+    ```python
+    thematic = Fetch_Nse_Data(IndexPerformances.THEMATIC)
+    ```
+ - **FIXED INCOME INDICES**
+    ```python
+    fixed_income = Fetch_Nse_Data(IndexPerformances.FIXED_INCOME)
+    ```
 
-#### #Low
-##### week_low = Fetch_Nse_Data(WeekHighLow.WEEK_LOW)
+### Price Band Hitters
+ - **BAND_HITTERS**
+    ```python
+    band_hitters = Fetch_Nse_Data(PriceBandHitters.BAND_HITTERS)
+    ```
+ - **UPPER_BAND_HITTERS**
+    ```python
+    upper_band_hitters = Fetch_Nse_Data(PriceBandHitters.UPPER_BAND_HITTERS)
+    ```
+ - **LOWER_BAND_HITTERS**
+    ```python
+    lower_band_hitters = Fetch_Nse_Data(PriceBandHitters.LOWER_BAND_HITTERS)
+    ```
+ - **BOTH_BAND_HITTERS**
+    ```python
+    both_band_hitters = Fetch_Nse_Data(PriceBandHitters.BOTH_BAND_HITTERS)
+    ```
 
-### """ To Fetch Top 20 Gainer / Loosers """
-#### #GAINERS
-##### gainers = Fetch_Nse_Data(Top20GainerLoosers.GAINERS)
+### Volume Gainers 
+```python
+volume = Fetch_Nse_Data(VolumeGainers.VOLUME)
+```
+### 52 Week High / Low
+ - **High**
+    ```python
+    week_high = Fetch_Nse_Data(WeekHighLow.WEEK_HIGH)
+    ```
+ - **Low**
+    ```python
+    week_low = Fetch_Nse_Data(WeekHighLow.WEEK_LOW)
+    ```
+### Top 20 Gainer / Loosers
+ - **GAINERS**
+    ```python
+    gainers = Fetch_Nse_Data(Top20GainerLoosers.GAINERS)
+    ```
+ - **LOOSERS**
+    ```python
+    loosers = Fetch_Nse_Data(Top20GainerLoosers.LOOSERS)
+    ```
+### TurnOver 
+```python
+growth = Fetch_Nse_Data(TurnOver.GROWTH)
+```
 
-#### #LOOSERS
-##### loosers = Fetch_Nse_Data(Top20GainerLoosers.LOOSERS)
+### Most Active Contracts
+ - **EQUITY**
+    ```python
+    equity = Fetch_Nse_Data(MostActiveContracts.EQUITY)
+    ```
+ - **Currency**
+    ```python
+    currency = Fetch_Nse_Data(MostActiveContracts.CURRENCY)
+    ```
 
-### """ To Fetch TurnOver """
-##### growth = Fetch_Nse_Data(TurnOver.GROWTH)
+### Most Active Futures
+ - **EQUITY**
+    ```python
+    equity_f = Fetch_Nse_Data(MostActiveFutures.EQUITY)
+    ```
+ - **Currency**
+    ```python
+    currency_f = Fetch_Nse_Data(MostActiveFutures.CURRENCY)
+    ```
+### Most Active Futures
+ - **EQUITY**
+    ```python
+    equity_O = Fetch_Nse_Data(MostActiveOptions.EQUITY)
+    ```
+ - **Currency**
+    ```python
+    currency_O = Fetch_Nse_Data(MostActiveOptions.CURRENCY)
+    ```
+### Most Active Calls 
+ - **EQUITY**
+    ```python
+    equity_C = Fetch_Nse_Data(MostActiveCalls.EQUITY)
+    ```
+ - **Currency**
+    ```python
+    currency_C = Fetch_Nse_Data(MostActiveCalls.CURRENCY)
+    ```
+### Most Active Puts
+ - **EQUITY**
+    ```python
+    equity_P = Fetch_Nse_Data(MostActivePuts.EQUITY)
+    ```
+ - **Currency**
+    ```python
+    currency_P = Fetch_Nse_Data(MostActivePuts.CURRENCY)
+    ```
+### Most Active By OI
+ - **EQUITY**
+    ```python
+    equity_OI = Fetch_Nse_Data(MostActiveOI.EQUITY)
+    ```
+ - **Currency**
+    ```python
+    currency_OI = Fetch_Nse_Data(MostActiveOI.CURRENCY)
+    ```
+### Option Chain
+ - **Indices**
+    ```python
+    nifty = Fetch_Nse_Data(OptionChain.NIFTY) # NIFTY, BANKNIFTY, FINNIFTY
 
-### """ To Fetch Most Active Contracts """
-#### #EQUITY
-##### equity = Fetch_Nse_Data(MostActiveContracts.EQUITY)
+    ```
+ - **Currency**
+    ```python
+    eurinr = Fetch_Nse_Data(OptionChain.EURINR) # EURINR, USDINR, GBPINR, JPYINR, EURUSD,GBPUSD,USDJPY
+    ```
+### Option Chain By Symbol
 
-#### #Currency
-##### currency = Fetch_Nse_Data(MostActiveContracts.CURRENCY)
+```python
+AARTIIND = OptionChainIndices_By_Symbol('AARTIIND')
+```
 
-### """ To Fetch Most Active Futures """
-#### #EQUITY
-##### equity_f = Fetch_Nse_Data(MostActiveFutures.EQUITY)
 
-### #Currency
-##### currency_f = Fetch_Nse_Data(MostActiveFutures.CURRENCY)
+  
 
-### """ To Fetch Most Active Options """
-#### #EQUITY
-##### equity_O = Fetch_Nse_Data(MostActiveOptions.EQUITY)
+ 
 
-#### #Currency
-##### currency_O = Fetch_Nse_Data(MostActiveOptions.CURRENCY)
+## License
 
-### """ To Fetch Most Active Calls """
-####  #EQUITY
-##### equity_C = Fetch_Nse_Data(MostActiveCalls.EQUITY)
+[MIT](https://choosealicense.com/licenses/mit/)
 
-####  #Currency
-##### currency_C = Fetch_Nse_Data(MostActiveCalls.CURRENCY)
 
-### """ To Fetch Most Active Puts """
-#### #EQUITY
-##### equity_P = Fetch_Nse_Data(MostActivePuts.EQUITY)
+## Feedback
 
-#### #Currency
-##### currency_P = Fetch_Nse_Data(MostActivePuts.CURRENCY)
+If you have any feedback, please reach out to me at niru3913@gmail.com
 
-### """ To Fetch Most Active By OI """
-#### #EQUITY
-##### equity_OI = Fetch_Nse_Data(MostActiveOI.EQUITY)
-
-#### #Currency
-##### currency_OI = Fetch_Nse_Data(MostActiveOI.CURRENCY)
-
-### """ To Fetch Option Chain"""
-
-#### #for Indices
-##### nifty = Fetch_Nse_Data(OptionChain.NIFTY) # NIFTY, BANKNIFTY, FINNIFTY
-
-#### #For Currency
-##### eurinr = Fetch_Nse_Data(OptionChain.EURINR) # EURINR, USDINR, GBPINR, JPYINR, EURUSD,GBPUSD,USDJPY
-
-### """ To Fetch Option Chain By Symbol """
-##### AARTIIND = OptionChainIndices_By_Symbol('AARTIIND')
