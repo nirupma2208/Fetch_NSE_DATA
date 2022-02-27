@@ -15,21 +15,21 @@ Install module with cmd
     
 ## Fetch INFO
 
- - [Most Active Equities]()
- - [Index Performances]()
- - [Price Band Hitters]()
- - [Volume Gainers]()
- - [52 Week High / Low]()
- - [Top 20 Gainer / Loosers]()
- - [TurnOver]()
- - [Most Active Contracts]()
- - [Most Active Futures]()
- - [Most Active Options]()
- - [Most Active Calls]()
- - [Most Active Puts]()
- - [Most Active By OI]()
- - [Fetch Option Chain]()
- - [Fetch Option Chain By Symbol]()
+ - [Most Active Equities](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#most-active-equities)
+ - [Index Performances](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#index-performances)
+ - [Price Band Hitters](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#price-band-hitters)
+ - [Volume Gainers](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#volume-gainers)
+ - [52 Week High / Low](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#52-week-high--low)
+ - [Top 20 Gainer / Loosers](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#top-20-gainer--loosers)
+ - [TurnOver](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#turnover)
+ - [Most Active Contracts](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#most-active-contracts)
+ - [Most Active Futures](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#most-active-futures)
+ - [Most Active Options](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#most-active-options)
+ - [Most Active Calls](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#most-active-calls)
+ - [Most Active Puts](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#most-active-puts)
+ - [Most Active By OI](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#most-active-by-oi)
+ - [Fetch Option Chain](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#option-chain)
+ - [Fetch Option Chain By Symbol](https://github.com/nirupma2208/Fetch_NSE_DATA/blob/niru/README.md#option-chain-by-symbol)
 
 ## Import Module
 
