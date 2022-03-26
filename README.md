@@ -1,6 +1,6 @@
 
 # Fetch-NSE-DATA
-This is a Python module used to fetch NSE DATA of Share Market. It basically fetch many information like Most Active Equities, Index Performances, Price Band Hitters, Volume Gainers, 52 Week High / Low, Top 20 Gainer / Looser etc.
+This is a Python module used to fetch NSE DATA of Stock Market. It basically fetch many information like Most Active Equities, Index Performances, Price Band Hitters, Volume Gainers, 52 Week High / Low, Top 20 Gainer / Looser etc.
 
 
 
